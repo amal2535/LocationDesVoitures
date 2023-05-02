@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>784</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>811</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/v.jpg.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+text-align:center;
+background-color: rgb(255, 124, 10);
+padding:5px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>FACTURE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Nom&amp;Prénom:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cin:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>360</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Showcard Gothic</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Showcard Gothic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Montant à payer:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>460</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>490</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>10</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VOTRE SIGNATURE:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Matricule:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/facture.JPG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>470</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>ENREGISTRER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>370</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>-----------(DINARS)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>130</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Mr X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>280</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>XXX TN XXXX</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>XXXXXXXX</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>470</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>ANNULER</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="fse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

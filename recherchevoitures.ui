@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>0</y>
+     <width>881</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/v.jpg.jpg);
+background-color: rgb(214, 250, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+text-align:center;
+padding:5px;
+background-color: rgb(151, 164, 253);
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>RECHERCHE DES VOITURES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>VOITURES LOUEES ENTRE 2 DATES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>VOITURES DISPONIBLES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>VOITURES LOUEES </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>370</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>PAR COULEUR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>PAR MARQUE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 212, 138);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>PAR MATRICULE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="zsza.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(233, 248, 253);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+background-color: rgb(255, 116, 3);
+text-align:center;
+padding:5px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Recherche Location entre 2 dates données</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>130</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Date1:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>130</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Date2:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>130</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+background-color: rgb(255, 124, 10);
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>220</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+background-color: rgb(255, 124, 10);
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>40</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/newPrefix/reche.jpg);
+image: url(:/newPrefix/reche.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>661</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ml.qrc"/>
+ </resources>
+ <connections/>
+</ui>

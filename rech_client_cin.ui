@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(214, 250, 222);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+text-align:center;
+background-color: rgb(255, 116, 3);
+padding:5px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Recherche Client par CIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>220</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+background-color: rgb(255, 124, 10);
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>220</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+background-color: rgb(255, 124, 10);
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>CIN:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>60</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/newPrefix/reche.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>501</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="llll.qrc"/>
+ </resources>
+ <connections/>
+</ui>

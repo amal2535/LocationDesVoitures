@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>636</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(214, 250, 222);
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+text-align:center;
+background-color: rgb(255, 124, 10);
+padding:5px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Modifier L'adresse du client</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>180</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>320</y>
+     <width>141</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/newPrefix/modi.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>180</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nouvelle adresse:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 124, 10);
+color:white;
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>250</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+background-color: rgb(255, 124, 10);
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>CIN:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 199, 121);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="112.qrc"/>
+ </resources>
+ <connections/>
+</ui>

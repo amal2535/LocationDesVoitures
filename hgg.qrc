@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>modi.jpg</file>
+  </qresource>
+</RCC>

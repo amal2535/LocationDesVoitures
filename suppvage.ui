@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(214, 250, 222);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color:white;
+text-align:center;
+background-color: rgb(255, 124, 10);
+padding:5px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Supprimer Voiture Agée(plus de 10 ans)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 124, 10);
+color:white;
+
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>190</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+background-color: rgb(255, 124, 10);
+padding:5px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>300</y>
+     <width>141</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/newPrefix/suppression.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="55.qrc"/>
+ </resources>
+ <connections/>
+</ui>

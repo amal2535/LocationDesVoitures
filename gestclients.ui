@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QWidget" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-20</y>
+     <width>861</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url(:/newPrefix/v.jpg.jpg);
+background-color: rgb(214, 250, 222);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 160, 80);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>GESTION DES CLIENTS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>AJOUTER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>330</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>MODIFIER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>SUPPRIMER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>410</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156, 157, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>RECHERCHER</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ttt.qrc"/>
+ </resources>
+ <connections/>
+</ui>

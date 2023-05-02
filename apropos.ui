@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(212, 251, 222);
+</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 160, 76);</string>
+   </property>
+   <property name="plainText">
+    <string>Ceci est une application faite en python pur en utilisant le QTdesigner.
+ Elle concerne la gestion de location des voitures, contrat,facture,resérvations,annulation...
+
+
+REALISEE PAR:
+      
+                     AMAL MAATOUG CPI 2 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(156, 157, 255);
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+text-align:center;
+padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>A PROPOS</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
